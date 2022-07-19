@@ -1,0 +1,5 @@
+GESTIONE VINCOLO UNIQUE:
+Inserendo un impiegato con la stessa matricola
+il tutto andrebbe gestito catturando 
+una SQLIntegrityConstraintViolationException
+al posto o prima di SQLException, volendo fare le cose per bene.
